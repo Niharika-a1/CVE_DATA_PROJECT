@@ -55,8 +55,8 @@ def fetch_cve_data():
     }
 
     headers = {
-        'apiKey': '9967c9e8-52d5-4de6-9fc9-33c1369f8633',          
-        'User-Agent': 'niharika.ambojipet@gmail.com' 
+        'apiKey': '',  # generated_api_key      
+        'User-Agent': '' # username
     }
 
     response = requests.get(base_url, headers=headers, params=params)
